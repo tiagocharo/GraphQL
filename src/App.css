@@ -1,0 +1,37 @@
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.app .todo {
+  background: #0047B3;
+  width: 50%;
+  color: aliceblue;
+  padding: 20px;
+  box-shadow: 0 5px 20px 2px rgba(0,0,0,.5);
+  border-radius: 10px;
+}
+.app .todo ul {
+  list-style: none;
+  padding: 0;
+}
+.app .todo ul li {
+  padding: 5px 0;
+}
+.app .todo input {
+  border: none!important;
+  height: 20px!important;
+  background-color: aliceblue!important;
+  padding: 0;
+}
+.app .todo .submit {
+  padding: 2px;
+  margin-left: 5px;
+}
+
+@media all and (max-width: 768px) {
+  .app .todo {
+    width: 80%;
+  }
+}
